@@ -1,0 +1,36 @@
+.login-container {
+    background: #f0f0f0;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 400px;
+    margin: 20px auto;
+  }
+  
+  .login-heading {
+    text-align: center;
+  }
+  
+  .password-input {
+    position: relative;
+  }
+  
+  .eye-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .login-button {
+    background-color: orange;
+    border-radius: 20px;
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 10px;
+  }
+  
+  .forgot-password {
+    text-align: center;
+  }
+  
