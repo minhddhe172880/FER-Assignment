@@ -32,101 +32,7 @@ export default function Homepage() {
 
   return (
     <Container fluid>
-      {/* Header */}
-      <Row style={{ padding: "0px 50px" }}>
-        <Navbar key="lg" expand="lg" style={{ alignContent: "center"}}>
-          <Container fluid>
-            <Navbar.Brand
-              href="#home"
-              style={{ fontWeight: "bold", color: "#87CEFA" }}
-            >
-              <i className="bi bi-book"></i> Edu-Learn
-            </Navbar.Brand>
-            <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-lg`} />
-            <Navbar.Offcanvas
-              id={`offcanvasNavbar-expand-lg`}
-              aria-labelledby={`offcanvasNavbarLabel-expand-lg`}
-              placement="start"
-            >
-              <Offcanvas.Header closeButton>
-                <Offcanvas.Title id={`offcanvasNavbarLabel-expand-lg`}>
-                  <a
-                    href="#home"
-                    style={{ fontWeight: "bold", color: "#87CEFA" }}
-                  >
-                    <i className="bi bi-book"></i> Edu-Learn
-                  </a>
-                </Offcanvas.Title>
-              </Offcanvas.Header>
-              <Offcanvas.Body>
-                <Nav className="justify-content flex-grow-1 pe-3">
-                  <Nav.Link
-                    href="#action1"
-                    style={{ display: "flex"}}
-                  >
-                    Home
-                  </Nav.Link>
-                  <Nav.Link
-                    href="#action2"
-                    style={{ display: "flex"}}
-                  >
-                    My Learning
-                  </Nav.Link>
-                  <NavDropdown
-                    title="Discovery"
-                    id="basic-nav-dropdown"
-                    style={{ display: "flex"}}
-                  >
-                    <NavDropdown.Header>Categories</NavDropdown.Header>
-                    <NavDropdown.Item href="#">Art & Design</NavDropdown.Item>
-                    <NavDropdown.Item href="#">Development</NavDropdown.Item>
-                    <NavDropdown.Item href="#">Communication</NavDropdown.Item>
-                    <NavDropdown.Item href="#">Finance</NavDropdown.Item>
-                    <NavDropdown.Item href="#">Science</NavDropdown.Item>
-                    <NavDropdown.Item href="#">Network</NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item href="#more">More</NavDropdown.Item>
-                  </NavDropdown>
-                </Nav>
-                <Form className="d-flex">
-                  <FormControl
-                    type="search"
-                    placeholder="Search"
-                    className="me-2"
-                    aria-label="Search"
-                    style={{ borderRadius: "20px" }}
-                  />
-                </Form>
-                <Nav>
-                  <Nav.Link href="#">
-                    <i
-                      className="bi bi-bell"
-                    //   style={{ fontSize: "1.5rem" }}
-                    ></i>
-                  </Nav.Link>
-                  <NavDropdown
-                    title={
-                      <i
-                        className="bi bi-person-circle"
-                        // style={{ fontSize: "1.5rem" }}
-                      ></i>
-                    }
-                    id="basic-nav-dropdown"
-                  >
-                    <NavDropdown.Item href="#">My Account</NavDropdown.Item>
-                    <NavDropdown.Item href="#">My Purchases</NavDropdown.Item>
-                    <NavDropdown.Item href="#">Settings</NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item href="#">Logout</NavDropdown.Item>
-                  </NavDropdown>
-                </Nav>
-              </Offcanvas.Body>
-            </Navbar.Offcanvas>
-          </Container>
-        </Navbar>
-      </Row>
 
-      {/* Carousel */}
       <Row>
         <Col style={{ padding: "0px 0px" }}>
           <Carousel>
@@ -454,92 +360,193 @@ export default function Homepage() {
       </Container>
       {/* Footer */}
       <Row>
-        <Container
-          fluid
-          style={{ backgroundColor: "#f8f9fa", marginTop: "100px" }}
-        >
-          <Row style={{ padding: "20px 100px" }}>
-            <Col sm={12} md={6} lg={3}>
-              <h4 style={{ fontWeight: "Bold" }}>Edu-learn</h4>
-              <p style={{ textAlign: "justify" }}>
-                Edu-Learn is your go-to platform for online learning. Explore a
-                variety of courses to expand your knowledge and skills in
-                diverse fields. Join us and start your learning journey today!
-              </p>
-            </Col>
-            <Col sm={12} md={6} lg={3}>
-              <h4>About Us</h4>
-              <ul className="list-unstyled">
-                <li>
-                  <a href="#" className="footer-link">
-                    Contact Us
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="footer-link">
-                    FAQ
-                  </a>
-                </li>
-              </ul>
-            </Col>
-            <Col sm={12} md={6} lg={3}>
-              <h4 style={{ fontWeight: "Bold" }}>PROGRAMS</h4>
-              <ul className="list-unstyled">
-                <li>
-                  <a href="#" className="footer-link">
-                    Art & Design
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="footer-link">
-                    Business
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="footer-link">
-                    IT Software
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="footer-link">
-                    Language
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="footer-link">
-                    Programming
-                  </a>
-                </li>
-              </ul>
-            </Col>
-            <Col sm={12} md={6} lg={3}>
-              <h4 style={{ fontWeight: "Bold" }}>CONTACT US</h4>
-              <ul className="list-unstyled footer-icons">
-                <li>Adress: Street, Place, Place, Country, Nation</li>
-                <li>Tel: 12345678910</li>
-                <li>Mail: Example1223@gmail.com</li>
-                <li>
-                  <a href="#" className="footer-link">
-                    <i className="bi bi-facebook"></i>
-                  </a>
-                  <a href="#" className="footer-link">
-                    <i className="bi bi-pinterest"></i>
-                  </a>
-                  <a href="#" className="footer-link">
-                    <i className="bi bi-twitter-x"></i>
-                  </a>
-                  <a href="#" className="footer-link">
-                    <i className="bi bi-instagram"></i>
-                  </a>
-                  <a href="#" className="footer-link">
-                    <i className="bi bi-youtube"></i>
-                  </a>
-                </li>
-              </ul>
-            </Col>
-          </Row>
-        </Container>
       </Row>
     </Container>
+  );
+}
+
+export {NavBar,Footer};
+function NavBar(){
+  return(
+    <Navbar key="lg" expand="lg" style={{ alignContent: "center"}}>
+          <Container fluid>
+            <Navbar.Brand
+              href="#home"
+              style={{ fontWeight: "bold", color: "#87CEFA" }}
+            >
+              <i className="bi bi-book"></i> Edu-Learn
+            </Navbar.Brand>
+            <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-lg`} />
+            <Navbar.Offcanvas
+              id={`offcanvasNavbar-expand-lg`}
+              aria-labelledby={`offcanvasNavbarLabel-expand-lg`}
+              placement="start"
+            >
+              <Offcanvas.Header closeButton>
+                <Offcanvas.Title id={`offcanvasNavbarLabel-expand-lg`}>
+                  <a
+                    href="#home"
+                    style={{ fontWeight: "bold", color: "#87CEFA" }}
+                  >
+                    <i className="bi bi-book"></i> Edu-Learn
+                  </a>
+                </Offcanvas.Title>
+              </Offcanvas.Header>
+              <Offcanvas.Body>
+                <Nav className="justify-content flex-grow-1 pe-3">
+                  <Nav.Link
+                    href="#action1"
+                    style={{ display: "flex"}}
+                  >
+                    Home
+                  </Nav.Link>
+                  <Nav.Link
+                    href="#action2"
+                    style={{ display: "flex"}}
+                  >
+                    My Learning
+                  </Nav.Link>
+                  <NavDropdown
+                    title="Discovery"
+                    id="basic-nav-dropdown"
+                    style={{ display: "flex"}}
+                  >
+                    <NavDropdown.Header>Categories</NavDropdown.Header>
+                    <NavDropdown.Item href="#">Art & Design</NavDropdown.Item>
+                    <NavDropdown.Item href="#">Development</NavDropdown.Item>
+                    <NavDropdown.Item href="#">Communication</NavDropdown.Item>
+                    <NavDropdown.Item href="#">Finance</NavDropdown.Item>
+                    <NavDropdown.Item href="#">Science</NavDropdown.Item>
+                    <NavDropdown.Item href="#">Network</NavDropdown.Item>
+                    <NavDropdown.Divider />
+                    <NavDropdown.Item href="#more">More</NavDropdown.Item>
+                  </NavDropdown>
+                </Nav>
+                <Form className="d-flex">
+                  <FormControl
+                    type="search"
+                    placeholder="Search"
+                    className="me-2"
+                    aria-label="Search"
+                    style={{ borderRadius: "20px" }}
+                  />
+                </Form>
+                <Nav>
+                  <Nav.Link href="#">
+                    <i
+                      className="bi bi-bell"
+                    //   style={{ fontSize: "1.5rem" }}
+                    ></i>
+                  </Nav.Link>
+                  <NavDropdown
+                    title={
+                      <i
+                        className="bi bi-person-circle"
+                        // style={{ fontSize: "1.5rem" }}
+                      ></i>
+                    }
+                    id="basic-nav-dropdown"
+                  >
+                    <NavDropdown.Item href="#">My Account</NavDropdown.Item>
+                    <NavDropdown.Item href="#">My Purchases</NavDropdown.Item>
+                    <NavDropdown.Item href="#">Settings</NavDropdown.Item>
+                    <NavDropdown.Divider />
+                    <NavDropdown.Item href="#">Logout</NavDropdown.Item>
+                  </NavDropdown>
+                </Nav>
+              </Offcanvas.Body>
+            </Navbar.Offcanvas>
+          </Container>
+        </Navbar>
+  ); 
+}
+
+function Footer() {
+  return(
+    <Container
+    fluid
+    style={{ backgroundColor: "#f8f9fa", marginTop: "100px" }}
+  >
+    <Row style={{ padding: "20px 100px" }}>
+      <Col sm={12} md={6} lg={3}>
+        <h4 style={{ fontWeight: "Bold" }}>Edu-learn</h4>
+        <p style={{ textAlign: "justify" }}>
+          Edu-Learn is your go-to platform for online learning. Explore a
+          variety of courses to expand your knowledge and skills in
+          diverse fields. Join us and start your learning journey today!
+        </p>
+      </Col>
+      <Col sm={12} md={6} lg={3}>
+        <h4>About Us</h4>
+        <ul className="list-unstyled">
+          <li>
+            <a href="#" className="footer-link">
+              Contact Us
+            </a>
+          </li>
+          <li>
+            <a href="#" className="footer-link">
+              FAQ
+            </a>
+          </li>
+        </ul>
+      </Col>
+      <Col sm={12} md={6} lg={3}>
+        <h4 style={{ fontWeight: "Bold" }}>PROGRAMS</h4>
+        <ul className="list-unstyled">
+          <li>
+            <a href="#" className="footer-link">
+              Art & Design
+            </a>
+          </li>
+          <li>
+            <a href="#" className="footer-link">
+              Business
+            </a>
+          </li>
+          <li>
+            <a href="#" className="footer-link">
+              IT Software
+            </a>
+          </li>
+          <li>
+            <a href="#" className="footer-link">
+              Language
+            </a>
+          </li>
+          <li>
+            <a href="#" className="footer-link">
+              Programming
+            </a>
+          </li>
+        </ul>
+      </Col>
+      <Col sm={12} md={6} lg={3}>
+        <h4 style={{ fontWeight: "Bold" }}>CONTACT US</h4>
+        <ul className="list-unstyled footer-icons">
+          <li>Adress: Street, Place, Place, Country, Nation</li>
+          <li>Tel: 12345678910</li>
+          <li>Mail: Example1223@gmail.com</li>
+          <li>
+            <a href="#" className="footer-link">
+              <i className="bi bi-facebook"></i>
+            </a>
+            <a href="#" className="footer-link">
+              <i className="bi bi-pinterest"></i>
+            </a>
+            <a href="#" className="footer-link">
+              <i className="bi bi-twitter-x"></i>
+            </a>
+            <a href="#" className="footer-link">
+              <i className="bi bi-instagram"></i>
+            </a>
+            <a href="#" className="footer-link">
+              <i className="bi bi-youtube"></i>
+            </a>
+          </li>
+        </ul>
+      </Col>
+    </Row>
+  </Container>
   );
 }
