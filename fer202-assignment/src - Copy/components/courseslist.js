@@ -56,7 +56,7 @@ function CoursesBody() {
                                 <Col>
                                     <Card className="d-flex flex-row">
                                         <div>
-                                            <Card.Img variant="top" src="/images/286x180.png" style={{ maxWidth: "286px", maxHeight: "180px" }} />
+                                            <Card.Img variant="top" src="./286x180.png" style={{ maxWidth: "286px", maxHeight: "180px" }} />
                                         </div>
                                         <Card.Body className="flex-grow-1">
                                             <Badge pill className="badge-category">Category</Badge>
@@ -90,7 +90,7 @@ function CoursesBody() {
                                 <Col>
                                     <Card className="d-flex flex-row">
                                         <div>
-                                            <Card.Img variant="top" src="/images/286x180.png" style={{ maxWidth: "286px", maxHeight: "180px" }} />
+                                            <Card.Img variant="top" src="./286x180.png" style={{ maxWidth: "286px", maxHeight: "180px" }} />
                                         </div>
                                         <Card.Body className="flex-grow-1">
                                             <Badge pill className="badge-category">Category</Badge>
@@ -124,7 +124,7 @@ function CoursesBody() {
                                 <Col>
                                     <Card className="d-flex flex-row">
                                         <div>
-                                            <Card.Img variant="top" src="/images/286x180.png" style={{ maxWidth: "286px", maxHeight: "180px" }} />
+                                            <Card.Img variant="top" src="./286x180.png" style={{ maxWidth: "286px", maxHeight: "180px" }} />
                                         </div>
                                         <Card.Body className="flex-grow-1">
                                             <Badge pill className="badge-category">Category</Badge>
@@ -158,7 +158,7 @@ function CoursesBody() {
                                 <Col>
                                     <Card className="d-flex flex-row">
                                         <div>
-                                            <Card.Img variant="top" src="/images/286x180.png" style={{ maxWidth: "286px", maxHeight: "180px" }} />
+                                            <Card.Img variant="top" src="./286x180.png" style={{ maxWidth: "286px", maxHeight: "180px" }} />
                                         </div>
                                         <Card.Body className="flex-grow-1">
                                             <Badge pill className="badge-category">Category</Badge>
@@ -192,7 +192,7 @@ function CoursesBody() {
                                 <Col>
                                     <Card className="d-flex flex-row">
                                         <div>
-                                            <Card.Img variant="top" src="/images/286x180.png" style={{ maxWidth: "286px", maxHeight: "180px" }} />
+                                            <Card.Img variant="top" src="./286x180.png" style={{ maxWidth: "286px", maxHeight: "180px" }} />
                                         </div>
                                         <Card.Body className="flex-grow-1">
                                             <Badge pill className="badge-category">Category</Badge>
@@ -226,7 +226,7 @@ function CoursesBody() {
                                 <Col>
                                     <Card className="d-flex flex-row">
                                         <div>
-                                            <Card.Img variant="top" src="/images/286x180.png" style={{ maxWidth: "286px", maxHeight: "180px" }} />
+                                            <Card.Img variant="top" src="./286x180.png" style={{ maxWidth: "286px", maxHeight: "180px" }} />
                                         </div>
                                         <Card.Body className="flex-grow-1">
                                             <Badge pill className="badge-category">Category</Badge>
@@ -260,7 +260,7 @@ function CoursesBody() {
                                 <Col>
                                     <Card className="d-flex flex-row">
                                         <div>
-                                            <Card.Img variant="top" src="/images/286x180.png" style={{ maxWidth: "286px", maxHeight: "180px" }} />
+                                            <Card.Img variant="top" src="./286x180.png" style={{ maxWidth: "286px", maxHeight: "180px" }} />
                                         </div>
                                         <Card.Body className="flex-grow-1">
                                             <Badge pill className="badge-category">Category</Badge>
@@ -294,7 +294,7 @@ function CoursesBody() {
                                 <Col>
                                     <Card className="d-flex flex-row">
                                         <div>
-                                            <Card.Img variant="top" src="/images/286x180.png" style={{ maxWidth: "286px", maxHeight: "180px" }} />
+                                            <Card.Img variant="top" src="./286x180.png" style={{ maxWidth: "286px", maxHeight: "180px" }} />
                                         </div>
                                         <Card.Body className="flex-grow-1">
                                             <Badge pill className="badge-category">Category</Badge>
@@ -328,7 +328,7 @@ function CoursesBody() {
                                 <Col>
                                     <Card className="d-flex flex-row">
                                         <div>
-                                            <Card.Img variant="top" src="/images/286x180.png" style={{ maxWidth: "286px", maxHeight: "180px" }} />
+                                            <Card.Img variant="top" src="./286x180.png" style={{ maxWidth: "286px", maxHeight: "180px" }} />
                                         </div>
                                         <Card.Body className="flex-grow-1">
                                             <Badge pill className="badge-category">Category</Badge>
@@ -362,7 +362,7 @@ function CoursesBody() {
                                 <Col>
                                     <Card className="d-flex flex-row">
                                         <div>
-                                            <Card.Img variant="top" src="/images/286x180.png" style={{ maxWidth: "286px", maxHeight: "180px" }} />
+                                            <Card.Img variant="top" src="./286x180.png" style={{ maxWidth: "286px", maxHeight: "180px" }} />
                                         </div>
                                         <Card.Body className="flex-grow-1">
                                             <Badge pill className="badge-category">Category</Badge>
@@ -481,7 +481,7 @@ function CoursesBody2() {
                     <Row style={{ marginTop: "20px" }}>
                         <Col>
                             <Card className="course-card">
-                                <Card.Img variant="top" src="/images/286x180.png" style={{ width: "100%", maxHeight: "220px" }} />
+                                <Card.Img variant="top" src="./286x180.png" style={{ width: "100%", maxHeight: "220px" }} />
                                 <Card.Body>
                                     <Badge pill className="badge-category">Category</Badge>
                                     <p><span className="text-by">by: </span><span style={{ fontWeight: "bold" }}>Maker</span></p>
@@ -503,53 +503,7 @@ function CoursesBody2() {
                         </Col>
                         <Col>
                             <Card className="course-card">
-                                <Card.Img variant="top" src="/images/286x180.png" style={{ width: "100%", maxHeight: "220px" }} />
-                                <Card.Body>
-                                    <Badge pill className="badge-category">Category</Badge>
-                                    <p><span className="text-by">by: </span><span style={{ fontWeight: "bold" }}>Maker</span></p>
-                                    <h5 className="course-name">Course Name</h5>
-                                    <div className="course-info">
-                                        <span><i className="bi bi-clock-fill"></i> # weeks</span>
-                                        <span><i className="bi bi-mortarboard"></i> ### enrolled</span>
-                                    </div>
-                                    <div className="d-flex justify-content-between">
-                                        <div className="course-price">
-                                            <span>$50</span>
-                                        </div>
-                                        <div className="view-more">
-                                            <a href="#" style={{ fontWeight: "bold" }} className="no-style">View more</a>
-                                        </div>
-                                    </div>
-                                </Card.Body>
-                            </Card>
-                        </Col>
-                    </Row>
-                    <Row style={{ marginTop: "20px" }}>
-                        <Col>
-                            <Card className="course-card">
-                                <Card.Img variant="top" src="/images/286x180.png" style={{ width: "100%", maxHeight: "220px" }} />
-                                <Card.Body>
-                                    <Badge pill className="badge-category">Category</Badge>
-                                    <p><span className="text-by">by: </span><span style={{ fontWeight: "bold" }}>Maker</span></p>
-                                    <h5 className="course-name">Course Name</h5>
-                                    <div className="course-info">
-                                        <span><i className="bi bi-clock-fill"></i> # weeks</span>
-                                        <span><i className="bi bi-mortarboard"></i> ### enrolled</span>
-                                    </div>
-                                    <div className="d-flex justify-content-between">
-                                        <div className="course-price">
-                                            <span>$50</span>
-                                        </div>
-                                        <div className="view-more">
-                                            <a href="#" style={{ fontWeight: "bold" }} className="no-style">View more</a>
-                                        </div>
-                                    </div>
-                                </Card.Body>
-                            </Card>
-                        </Col>
-                        <Col>
-                            <Card className="course-card">
-                                <Card.Img variant="top" src="/images/286x180.png" style={{ width: "100%", maxHeight: "220px" }} />
+                                <Card.Img variant="top" src="./286x180.png" style={{ width: "100%", maxHeight: "220px" }} />
                                 <Card.Body>
                                     <Badge pill className="badge-category">Category</Badge>
                                     <p><span className="text-by">by: </span><span style={{ fontWeight: "bold" }}>Maker</span></p>
@@ -573,7 +527,7 @@ function CoursesBody2() {
                     <Row style={{ marginTop: "20px" }}>
                         <Col>
                             <Card className="course-card">
-                                <Card.Img variant="top" src="/images/286x180.png" style={{ width: "100%", maxHeight: "220px" }} />
+                                <Card.Img variant="top" src="./286x180.png" style={{ width: "100%", maxHeight: "220px" }} />
                                 <Card.Body>
                                     <Badge pill className="badge-category">Category</Badge>
                                     <p><span className="text-by">by: </span><span style={{ fontWeight: "bold" }}>Maker</span></p>
@@ -595,53 +549,7 @@ function CoursesBody2() {
                         </Col>
                         <Col>
                             <Card className="course-card">
-                                <Card.Img variant="top" src="/images/286x180.png" style={{ width: "100%", maxHeight: "220px" }} />
-                                <Card.Body>
-                                    <Badge pill className="badge-category">Category</Badge>
-                                    <p><span className="text-by">by: </span><span style={{ fontWeight: "bold" }}>Maker</span></p>
-                                    <h5 className="course-name">Course Name</h5>
-                                    <div className="course-info">
-                                        <span><i className="bi bi-clock-fill"></i> # weeks</span>
-                                        <span><i className="bi bi-mortarboard"></i> ### enrolled</span>
-                                    </div>
-                                    <div className="d-flex justify-content-between">
-                                        <div className="course-price">
-                                            <span>$50</span>
-                                        </div>
-                                        <div className="view-more">
-                                            <a href="#" style={{ fontWeight: "bold" }} className="no-style">View more</a>
-                                        </div>
-                                    </div>
-                                </Card.Body>
-                            </Card>
-                        </Col>
-                    </Row>
-                    <Row style={{ marginTop: "20px" }}>
-                        <Col>
-                            <Card className="course-card">
-                                <Card.Img variant="top" src="/images/286x180.png" style={{ width: "100%", maxHeight: "220px" }} />
-                                <Card.Body>
-                                    <Badge pill className="badge-category">Category</Badge>
-                                    <p><span className="text-by">by: </span><span style={{ fontWeight: "bold" }}>Maker</span></p>
-                                    <h5 className="course-name">Course Name</h5>
-                                    <div className="course-info">
-                                        <span><i className="bi bi-clock-fill"></i> # weeks</span>
-                                        <span><i className="bi bi-mortarboard"></i> ### enrolled</span>
-                                    </div>
-                                    <div className="d-flex justify-content-between">
-                                        <div className="course-price">
-                                            <span>$50</span>
-                                        </div>
-                                        <div className="view-more">
-                                            <a href="#" style={{ fontWeight: "bold" }} className="no-style">View more</a>
-                                        </div>
-                                    </div>
-                                </Card.Body>
-                            </Card>
-                        </Col>
-                        <Col>
-                            <Card className="course-card">
-                                <Card.Img variant="top" src="/images/286x180.png" style={{ width: "100%", maxHeight: "220px" }} />
+                                <Card.Img variant="top" src="./286x180.png" style={{ width: "100%", maxHeight: "220px" }} />
                                 <Card.Body>
                                     <Badge pill className="badge-category">Category</Badge>
                                     <p><span className="text-by">by: </span><span style={{ fontWeight: "bold" }}>Maker</span></p>
@@ -665,7 +573,7 @@ function CoursesBody2() {
                     <Row style={{ marginTop: "20px" }}>
                         <Col>
                             <Card className="course-card">
-                                <Card.Img variant="top" src="/images/286x180.png" style={{ width: "100%", maxHeight: "220px" }} />
+                                <Card.Img variant="top" src="./286x180.png" style={{ width: "100%", maxHeight: "220px" }} />
                                 <Card.Body>
                                     <Badge pill className="badge-category">Category</Badge>
                                     <p><span className="text-by">by: </span><span style={{ fontWeight: "bold" }}>Maker</span></p>
@@ -687,7 +595,99 @@ function CoursesBody2() {
                         </Col>
                         <Col>
                             <Card className="course-card">
-                                <Card.Img variant="top" src="/images/286x180.png" style={{ width: "100%", maxHeight: "220px" }} />
+                                <Card.Img variant="top" src="./286x180.png" style={{ width: "100%", maxHeight: "220px" }} />
+                                <Card.Body>
+                                    <Badge pill className="badge-category">Category</Badge>
+                                    <p><span className="text-by">by: </span><span style={{ fontWeight: "bold" }}>Maker</span></p>
+                                    <h5 className="course-name">Course Name</h5>
+                                    <div className="course-info">
+                                        <span><i className="bi bi-clock-fill"></i> # weeks</span>
+                                        <span><i className="bi bi-mortarboard"></i> ### enrolled</span>
+                                    </div>
+                                    <div className="d-flex justify-content-between">
+                                        <div className="course-price">
+                                            <span>$50</span>
+                                        </div>
+                                        <div className="view-more">
+                                            <a href="#" style={{ fontWeight: "bold" }} className="no-style">View more</a>
+                                        </div>
+                                    </div>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+                    </Row>
+                    <Row style={{ marginTop: "20px" }}>
+                        <Col>
+                            <Card className="course-card">
+                                <Card.Img variant="top" src="./286x180.png" style={{ width: "100%", maxHeight: "220px" }} />
+                                <Card.Body>
+                                    <Badge pill className="badge-category">Category</Badge>
+                                    <p><span className="text-by">by: </span><span style={{ fontWeight: "bold" }}>Maker</span></p>
+                                    <h5 className="course-name">Course Name</h5>
+                                    <div className="course-info">
+                                        <span><i className="bi bi-clock-fill"></i> # weeks</span>
+                                        <span><i className="bi bi-mortarboard"></i> ### enrolled</span>
+                                    </div>
+                                    <div className="d-flex justify-content-between">
+                                        <div className="course-price">
+                                            <span>$50</span>
+                                        </div>
+                                        <div className="view-more">
+                                            <a href="#" style={{ fontWeight: "bold" }} className="no-style">View more</a>
+                                        </div>
+                                    </div>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+                        <Col>
+                            <Card className="course-card">
+                                <Card.Img variant="top" src="./286x180.png" style={{ width: "100%", maxHeight: "220px" }} />
+                                <Card.Body>
+                                    <Badge pill className="badge-category">Category</Badge>
+                                    <p><span className="text-by">by: </span><span style={{ fontWeight: "bold" }}>Maker</span></p>
+                                    <h5 className="course-name">Course Name</h5>
+                                    <div className="course-info">
+                                        <span><i className="bi bi-clock-fill"></i> # weeks</span>
+                                        <span><i className="bi bi-mortarboard"></i> ### enrolled</span>
+                                    </div>
+                                    <div className="d-flex justify-content-between">
+                                        <div className="course-price">
+                                            <span>$50</span>
+                                        </div>
+                                        <div className="view-more">
+                                            <a href="#" style={{ fontWeight: "bold" }} className="no-style">View more</a>
+                                        </div>
+                                    </div>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+                    </Row>
+                    <Row style={{ marginTop: "20px" }}>
+                        <Col>
+                            <Card className="course-card">
+                                <Card.Img variant="top" src="./286x180.png" style={{ width: "100%", maxHeight: "220px" }} />
+                                <Card.Body>
+                                    <Badge pill className="badge-category">Category</Badge>
+                                    <p><span className="text-by">by: </span><span style={{ fontWeight: "bold" }}>Maker</span></p>
+                                    <h5 className="course-name">Course Name</h5>
+                                    <div className="course-info">
+                                        <span><i className="bi bi-clock-fill"></i> # weeks</span>
+                                        <span><i className="bi bi-mortarboard"></i> ### enrolled</span>
+                                    </div>
+                                    <div className="d-flex justify-content-between">
+                                        <div className="course-price">
+                                            <span>$50</span>
+                                        </div>
+                                        <div className="view-more">
+                                            <a href="#" style={{ fontWeight: "bold" }} className="no-style">View more</a>
+                                        </div>
+                                    </div>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+                        <Col>
+                            <Card className="course-card">
+                                <Card.Img variant="top" src="./286x180.png" style={{ width: "100%", maxHeight: "220px" }} />
                                 <Card.Body>
                                     <Badge pill className="badge-category">Category</Badge>
                                     <p><span className="text-by">by: </span><span style={{ fontWeight: "bold" }}>Maker</span></p>

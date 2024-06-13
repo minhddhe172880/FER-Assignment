@@ -5,7 +5,7 @@ export default function CreateCourse() {
         <Container style={{ width: "70%", marginTop: "10px" }}>
             <Row>
                 <Col lg={12} md={12} className="d-none d-lg-block">
-                    <img src="/images/banner-placeholder.jpg" alt="Banner" style={{ width: '100%' }} />
+                    <img src="./banner-placeholder.jpg" alt="Banner" style={{ width: '100%' }} />
                 </Col>
             </Row>
 
